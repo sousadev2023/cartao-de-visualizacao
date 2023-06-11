@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+body {
+    position: relative;
+    }
+
+main {
+    position: absolute;
+    width: 100vw;
+    padding: 40px 10px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    }
+
+section {
+    display: flex;
+    background-color: rgb(145, 75, 75);
+    height: 50%;
+    width: 662px;
+
+    border-radius: 10px;
+                
+    }
+
+    div.colunas_conteiner {
+        min-width:30%;
+        max-width: none;
+        height: 340px;         
+    }
+
+    div.botao {
+        margin-top: 45px;
+    }
+
+}
+
+@media screen and (min-width: 1024px)  {
+body {
+        position: relative;
+    }
+
+main {
+    position: absolute;
+    width: 100vw;
+    padding: 40px 10px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    }
+
+section {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 750px;
+
+    border-radius: 10px;
+                
+    }
+
+div.colunas_conteiner {
+    min-width: 250px;
+    max-width: none;
+    height: 400px; 
+    padding: 35px;       
+    }
+
+img {
+    width: 60px;
+    padding: 10px 0px;
+    }
+    
+h1 {
+    font-size: 24px;
+    }
+    
+p {
+    font-size: 14px;
+    line-height: 22px;
+
+    }
+
+div.botao { 
+    width: 130px;
+    height: 38px;
+    margin-top: 50px;
+    }
+a {
+    font-size: 15px;
+}
+}

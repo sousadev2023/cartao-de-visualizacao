@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*Paleta de cores---------
+azul--------------( #027373 )
+verde-------------( #01403A )
+leao--------------( #A69460 )
+laranja-----------( #D97925 )
+fumaça bc---------( #F2F2F2 )
+------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family= Lexend + Deca:wght@700 & display=swap');
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    padding: 40px 0px;
+
+    align-items: center;
+    justify-content: center;    
+}
+
+section {
+    display: flex;
+    background-color: rgb(132, 84, 84);
+    width: 220px;
+    height: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+}
+
+div {
+    width: 220px;
+    height: 300px;
+    color: #F2F2F2;
+    padding: 30px;
+
+}
+
+img {
+    width: 40px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    padding: 10px 0px;
+    letter-spacing: -2px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.553);
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+
+div.botao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    background-color: white;
+    padding: 9px 5px;
+    margin-top: 14px;
+    border-radius: 20px;
+}
+
+div.botao:hover {
+    background-color: #f2f2f200;
+    border: 2px solid white;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.link_laranja {
+    color:#D97925;
+}
+
+.link_azul {
+    color:#027373;
+}
+
+.link_verde {
+    color:#01403A;
+}
+
+div#sedans {
+    background-color: #D97925;
+}
+
+div#suvs {
+    background-color: #027373;
+}
+
+div#luxury {
+    background-color: #01403A;
+}
